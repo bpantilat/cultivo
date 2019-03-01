@@ -1,0 +1,43 @@
+.what-we-do-section {
+	margin: 0;
+	padding: em(80px) 0;
+	position: relative;
+	width: 100%;
+
+	.inline-content {
+		@include flexbox();
+		flex-wrap: wrap;
+		justify-content: flex-start;
+		align-items: flex-start;
+		align-content: flex-start;
+		flex-direction: row;
+		width: 100%;
+		margin-top: em(70px);
+
+		.left-title {
+			margin: 0;
+			padding: 0;
+			h2 {
+				font-size: em(30px);
+				font-weight: 800;
+				font-family: var(--opensans-bold);
+				text-align: left;
+				position: relative;
+				display: block;
+				color: var(--black-color);
+			}
+		}
+
+		.right-title {
+			p {
+				font-size: em(17px);
+				font-weight: 500;
+				font-family: var(--ptserif-regular);
+				position: relative;
+				text-align: left;
+				line-height: em(25px);
+				display: block;
+			}
+		}
+	}
+}

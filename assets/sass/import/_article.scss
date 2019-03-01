@@ -1,0 +1,114 @@
+.article-content {
+	padding: em(80px) 0;
+	margin: 0;
+	width: 100%;
+	position: relative;
+
+	@media screen and (max-width: 400px) {
+		padding: em(40px) 0;
+	}
+
+	.heading-bd {
+		margin-bottom: 90px;
+		@media screen and (max-width: 600px) {
+			margin-bottom: 40px;
+		}
+		@media screen and (max-width: 400px) {
+			margin-bottom: 40px;
+		}
+		h2 {
+			font-weight: 800;
+			font-family: var(--opensans-bold);
+			font-size: em(50px);
+			text-align: left;
+			position: relative;
+			display: block;
+			color: var(--black-color);
+
+			@media screen and (max-width: 600px) {
+				font-size: em(35px);
+			}
+
+			@media screen and (max-width: 400px) {
+				font-size: em(30px);
+			}
+		}
+	}
+
+	.full-image {
+		width: 100%;
+
+		img {
+			width: 100%;
+		}
+
+		.title {
+			margin-top: 10px;
+			font-size: em(16px);
+			font-weight: 600;
+			font-family: var(--opensans-bold);
+			text-align: center;
+			color: var(--black-color);
+			display: block;
+			position: relative;
+		}
+	}
+
+	.side-area {
+		margin-top: em(60px);
+
+		.head-side {
+			margin-bottom: em(30px);
+			.sm-title {
+				font-size: em(14px);
+				font-weight: 500;
+				font-family: var(--opensans-regular);
+				color: #5e5e5e;
+				text-transform: uppercase;
+			}
+			.md-title {
+				margin-top: em(5px);
+				font-size: em(20px);
+				font-weight: 900;
+				font-family: var(--opensans-bold);
+				text-align: left;
+				color: var(--black-color);
+			}
+
+			.list-title {
+				margin-top: 5px;
+				font-size: em(15px);
+				font-weight: 900;
+				font-family: var(--opensans-bold);
+				text-align: left;
+				color: var(--black-color);
+			}
+		}
+	}
+
+	.info-content {
+		margin-top: em(60px);
+
+		h4 {
+			font-size: em(22px);
+			font-weight: 500;
+			font-family: var(--ptserif-regular);
+			text-align: left;
+			line-height: em(24px);
+			color: var(--black-color);
+			margin-bottom: 20px;
+		}
+
+		p {
+			font-size: em(15px);
+			font-weight: 500;
+			font-family: var(--pt-serif-regular);
+			position: relative;
+			text-align: left;
+			display: block;
+			line-height: 26px;
+			color: var(--black-color);
+			margin-bottom: 20px;
+		}
+	}
+}

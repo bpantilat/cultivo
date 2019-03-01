@@ -1,0 +1,72 @@
+.wrapper {
+	position: relative;
+}
+.video-hero {
+	position: relative;
+	width: 100%;
+	top: 0;
+	height: 100vh;
+
+
+
+	.main {
+		position: absolute;
+		top: 50%;
+		left: 14%;
+		transform: translateY(-50%);
+		@media screen and (max-width: 400px) {
+			left: 5%;
+		}
+		.video-heading {
+		  width: 65%;
+		  font-size: 36px;
+		  font-weight: 300;
+		  font-family: var(--ptserif-regular);
+		  letter-spacing: 1.2px;
+		  color: #fff;
+		  text-align: left;
+		  @media screen and (max-width: 850px) {
+				width: 90%;
+				font-size: em(25px);
+			}
+		  @media screen and (max-width: 600px) {
+				width: 90%;
+				font-size: em(25px);
+			}
+		  @media screen and (max-width: 400px) {
+				width: 90%;
+				font-size: em(25px);
+			}
+		}
+	}
+}
+
+
+#video-background {
+  position: absolute;
+  right: 0; 
+  bottom: 0;
+  left: 0;
+  top: 0;
+  // min-width: 100%; 
+  // min-height: 100%;
+  width: 100%; 
+  height: 88vh;
+  z-index: -100;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  @media screen and (min-width: 1200px) {
+  	height: 100vh;
+  }
+  @media screen and (max-width: 850px) {
+  	height: 100vh;
+  }
+  @media screen and (max-width: 600px) {
+  	height: 100vh;
+  }
+  @media screen and (max-width: 400px) {
+  	height: 100vh;
+  }
+}
+

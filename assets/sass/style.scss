@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'PT-Serif-Regular';
+  src: url('../fonts/PT_Serif/PT_Serif-Web-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'PT-Serif-Bold';
+  src: url('../fonts/PT_Serif/PT_Serif-Web-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Open-Sans-Light';
+  src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Open-Sans-Regular';
+  src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open-Sans-Bold';
+  src: url('../fonts/Open_Sans/OpenSans-Bold.ttf');
+}
+
+@import 'variable/root';
+
+@import 'variable/mixin';
+
+@import 'import/body';
+
+@import 'import/navbar';
+
+@import 'import/hero';
+
+@import 'import/colarea';
+
+@import 'import/project';
+
+@import 'import/brand';
+
+@import 'import/testimonial';
+
+@import 'import/let';
+
+@import 'import/blog';
+
+@import 'import/about';
+
+@import 'import/triangle';
+
+@import 'import/content';
+
+@import 'import/founder';
+
+@import 'import/article';
+
+@import 'import/footer';

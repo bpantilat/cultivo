@@ -1,0 +1,69 @@
+.triangle-area {
+	margin: 0;
+	padding: em(70px) 0;
+	text-align: center;
+	position: relative;
+	width: 100%;
+	background-color: var(--light-color);
+	.triangle {
+	  width: 0;
+	  height: 0;
+	  margin: 0 auto;
+	  border-left: 450px solid transparent;
+	  border-right: 500px solid transparent;
+	  border-top: 700px solid #5b41f7;
+	  position: relative;
+	  -webkit-filter: drop-shadow(0 20px 30px rgba(0,0,0,0.2));
+          filter: drop-shadow(0 20px 30px rgba(0,0,0,0.2));
+
+          @media screen and (max-width: 991px) {
+			  border-left: 350px solid transparent;
+			  border-right: 350px solid transparent;
+			  border-top: 600px solid #5b41f7;
+
+          }
+
+          @media screen and (max-width: 600px) {
+			  border-left: 160px solid transparent;
+			  border-right: 170px solid transparent;
+			  border-top: 300px solid #5b41f7;
+
+          }
+
+          @media screen and (max-width: 400px) {
+			  border-left: 160px solid transparent;
+			  border-right: 170px solid transparent;
+			  border-top: 300px solid #5b41f7;
+
+          }
+	}
+	  .head {
+	  	position: absolute;
+	  	top: 0;
+	  	text-align: center;
+	  	width: 100%;
+	  	right: 12px;
+	  	@media screen and (max-width: 991px) {
+	  		right: -7px;
+	  	}
+	  	@media screen and (max-width: 400px) {
+	  		right: 0;
+	  	}
+	  	.lg-title {
+	  		font-size: em(150px);
+	  		font-family: var(--opensans-bold);
+	  		font-weight: 900;
+	  		color: var(--white-color);
+	  		position: relative;
+	  		@media screen and (max-width: 991px) {
+	  			font-size: em(120px);
+	  		}
+	  		@media screen and (max-width: 600px) {
+	  			font-size: em(58px);
+	  		}
+	  		@media screen and (max-width: 400px) {
+	  			font-size: em(58px);
+	  		}
+	  	}
+	  }
+}
